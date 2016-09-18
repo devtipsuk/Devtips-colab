@@ -1,0 +1,118 @@
+//tutorials CSS
+.banner-image-tutorials {
+  background: url(../img/tutorials-image.jpeg)no-repeat center top fixed;
+  display: table;
+  height: 50%;
+  width: 100%;
+  position: relative;
+  background-size: cover;
+}
+
+.banner-image-tutorials h2 {
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 50px;
+  color: white;
+  margin-bottom: 30px
+}
+
+.banner-image-tutorials p {
+  color: white;
+  font-family: 'Roboto Slab', serif;
+  font-size: 20px
+}
+
+.tutorial-items {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.tutorial-items h3 {
+  font-size: 25px;
+  margin-bottom: 20px;
+  font-family: 'Roboto Slab', serif;
+}
+
+.tutorial-items img {
+  width: 200px
+}
+
+.tutorial-items a {
+  font-family: 'Roboto Slab', serif;
+  border: 2px solid black
+}
+
+.shareicons img {
+  width: 30px;
+  margin-top: 10px;
+}
+
+.share-symbol img {
+  width: 20px
+}
+
+.read-more {
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 30px
+}
+
+@media (max-width:799px) {
+  .nav {
+    bottom: 0;
+    margin-bottom: 0;
+    border-width: 1px 0 0;
+  }
+  .nav-items {
+    float: none;
+    margin-right: 0px
+  }
+  .nav-items li a {
+    padding: 17px 20px 14px 20px
+  }
+  .nav h2 {
+    display: none
+  }
+  .banner-image img {
+    width: 370px
+  }
+  .banner-image,
+  .banner-image-themes,
+  .banner-image-tutorials {
+    background-attachment: local
+  }
+  .cta,
+  .cta2 {}
+  .banner-image h2 {
+    font-size: 40px
+  }
+  .cta-option {
+    margin-left: 0px;
+    padding: 5px 5px
+  }
+  .cta-option-all {
+    padding: 5px 20px
+  }
+  .item {
+    margin-bottom: 5px
+  }
+  .copyright p {
+    margin-bottom: 70px
+  }
+  .highlights-images {
+    padding-bottom: 70px
+  }
+  .cd-form div {
+    margin: 20px 0;
+  }
+  .theme-items img {
+    width: 80%
+  }
+}
+
+@media (max-width:1024px) {
+  .banner-image,
+  .banner-image-themes,
+  .banner-image-tutorials {
+    background-attachment: local
+  }
+}
